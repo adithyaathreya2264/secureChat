@@ -16,7 +16,7 @@ We have transformed this application from a basic prototype into a robust, moder
 *   **Instant Delivery**: Messages appear instantly on the recipient's screen without needing to refresh the page.
 *   **Live Notifications**: Get notified immediately when a new message arrives.
 
-### 3. Modern UI/UX ?
+### 3. Modern UI/UX 
 *   **Glassmorphism Design**: A premium, dark-themed interface with translucent elements and blur effects.
 *   **Responsive Layout**: A seamless experience on both desktop and mobile devices.
 *   **Smooth Animations**: Polished transitions for login, message sending, and notifications.
