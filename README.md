@@ -2,11 +2,11 @@
 
 SecureChat is a secure, real-time messaging application built with Flask and Socket.IO. It features end-to-end encryption to ensure that your conversations remain private and secure.
 
-## ? Key Features & Improvements
+##  Key Features & Improvements
 
 We have transformed this application from a basic prototype into a robust, modern chat platform:
 
-### 1. End-to-End Encryption ?
+### 1. End-to-End Encryption 
 *   **RSA-2048**: Automatically generates a public/private key pair for each user upon registration. Public keys are stored on the server, while private keys are encrypted and stored securely.
 *   **AES-256**: Each message is encrypted with a unique, random AES key. This key is then encrypted with the recipient's RSA public key.
 *   **Zero-Knowledge**: The server only relays encrypted data. It never sees the plaintext messages.
@@ -21,7 +21,7 @@ We have transformed this application from a basic prototype into a robust, moder
 *   **Responsive Layout**: A seamless experience on both desktop and mobile devices.
 *   **Smooth Animations**: Polished transitions for login, message sending, and notifications.
 
-### 4. Robust Foundation ?
+### 4. Robust Foundation 
 *   **Database**: Migrated from file-based storage to **SQLite** for reliable data management.
 *   **Authentication**: Secure user registration and login using **Flask-Login** and **Flask-Bcrypt**.
 
@@ -31,7 +31,7 @@ We have transformed this application from a basic prototype into a robust, moder
 *   **Security**: Cryptography (RSA, AES), Flask-Bcrypt
 *   **Frontend**: HTML5, CSS3 (Variables, Flexbox/Grid), JavaScript (ES6+), Socket.IO Client
 
-## ? How to Run
+##  How to Run
 
 ### 1. Install Dependencies
 Make sure you have Python installed. Then, install the required packages:
@@ -58,7 +58,7 @@ To test the chat functionality between two users on the same computer, you **mus
 
 **Why?** If you use the same browser window (even in a new tab), the session cookies will conflict, and you will be logged out of the first user. Incognito mode creates a fresh, isolated session.
 
-## ? Usage Guide
+##  Usage Guide
 
 1.  **Register**: Create an account. The app will generate your encryption keys (this may take a few seconds).
 2.  **Select Contact**: Choose a user from the sidebar to start chatting.
