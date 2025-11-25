@@ -25,7 +25,7 @@ We have transformed this application from a basic prototype into a robust, moder
 *   **Database**: Migrated from file-based storage to **SQLite** for reliable data management.
 *   **Authentication**: Secure user registration and login using **Flask-Login** and **Flask-Bcrypt**.
 
-## ? Tech Stack
+##  Tech Stack
 
 *   **Backend**: Python, Flask, Flask-SocketIO, Flask-SQLAlchemy
 *   **Security**: Cryptography (RSA, AES), Flask-Bcrypt
@@ -64,3 +64,5 @@ To test the chat functionality between two users on the same computer, you **mus
 2.  **Select Contact**: Choose a user from the sidebar to start chatting.
 3.  **Chat**: Type and send messages. Watch them appear instantly!
 4.  **Verify Security**: Click the "Lock" icon in the chat header to see the encryption details.
+ 
+
